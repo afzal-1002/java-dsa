@@ -12,8 +12,8 @@ public class Palindrome {
         int total = 0;
 
         while (target > 0) {
-            int num0 = target % 10;
-            total = total * 10 + num0;
+            int num1 = target % 10;
+            total = total * 10 + num1;
             target = target / 10;
         }
 
