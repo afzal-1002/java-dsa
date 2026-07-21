@@ -23,7 +23,7 @@ public class Palindrome {
     public static void main(String[] args) {
 
         boolean res = Palindrome.Palindrome_Number(113141);
-        System.out.println(res);
+        System.out.println("res" + res);
 
     }
 }
