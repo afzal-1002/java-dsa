@@ -1,15 +1,15 @@
 
 public class Solution {
 
-    public int romanToInt(String s) {
+    public int romanToInt(String str) {
 
         int result = 0;
 
-        for (int i = 0; i < s.length(); i++) {
-            int current = value(s.charAt(i));
+        for (int i = 0; i < str.length(); i++) {
+            int current = value(str.charAt(i));
 
-            if (i + 1 < s.length()) {
-                int next = value(s.charAt(i + 1));
+            if (i + 1 < str.length()) {
+                int next = value(str.charAt(i + 1));
                 if (current < next) {
                     result -= current;
                 } else {
