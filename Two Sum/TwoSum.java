@@ -14,7 +14,7 @@ public class TwoSum {
         int target = 17;
 
         int[] results = twoSum.twoSum(arr, target);
-
+        System.out.println("Result is ");
         System.out.println(Arrays.toString(results));
 
     }
